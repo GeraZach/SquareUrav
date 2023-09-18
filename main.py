@@ -1,11 +1,8 @@
 
-def calc_discr(a, b, c):
-    return b ** 2 - 4 * a * c
 
+def calc_roots(a, b, c):
 
-def calc_roots(a, b, c) :
-
-    diskr = calc_discr(a, b, c)
+    diskr = b ** 2 - 4 * a * c
 
     if a == 0:
         if b == 0:
